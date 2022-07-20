@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWC HTML, CSS, JS Workshop Task 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="text-black">
+
+    <div>
+        <div class="fixed bg-gray-100 w-60 h-screen border-r-2 border-gray-300 ">
+            <div class="h-16"></div>
+            <div class="h-8"></div>
+            <div class="pl-8">
+                <p
+                    class="text-base font-open-sans font-semibold p-2 pl-8 border-t-2 border-l-2 border-b-2 border-gray-300 bg-white">
+                    Search Results
+                </p>
+            </div>
+            <div class="pl-8">
+                <p class="text-base font-open-sans font-semibold p-2 pl-8">
+                    All team
+                </p>
+            </div>
+            <div class="pl-8">
+                <p class="text-base font-open-sans font-semibold p-2 pl-8">
+                    Core
+                </p>
+            </div>
+            <div class="pl-8">
+                <p class="text-base font-open-sans font-semibold p-2 pl-8">
+                    Developers
+                </p>
+            </div>
+            <div class="pl-8">
+                <p class="text-base font-open-sans font-semibold p-2 pl-8">
+                    Designers
+                </p>
+            </div>
+            <div class="pl-8">
+                <p class="text-base font-open-sans font-semibold p-2 pl-8">
+                    Mentors
+                </p>
+            </div>
+            <div></div>
+        </div>
+
+        <div
+            class="w-screen fixed flex bg-white font-open-sans font-extrabold border-b-2 border-gray-300 shadow-header">
+            <div class="p-3 pl-12">
+                <div class="flex items-center border-r-2 border-gray-300 w-48">
+                    <div class="pr-3">
+                        <img class="" src="img/Logo.svg" alt="Logo">
+                    </div>
+                    <div class="pr-3">
+                        <h1><a href="/">Directory</a></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-grow"></div>
+            <div class="p-3 pl-12 basis-search">
+                <div class="flex items-center font-open-sans font-bold text-gray-400 border-l-2 border-gray-300 p-2">
+                    <div class="pr-3 pl-1">
+                        <img src="img/SearchIcon.svg" alts="Logo">
+                    </div>
+                    <form id="quick-search">
+                        <input type="text" placeholder="Quick Search" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed">
+            <!-- <div class="h-"></div> -->
+            <div class="mt-[90vh]">
+                <button type="button" class="p-5 ml-6">
+                    <div class="shadow-contact"><span
+                            class="font-open-sans font-bold bg-black text-white px-12 py-3 rounded-2xl ">+Contact</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <main>
+            <div class="h-16">
+            </div>
+            <div class="grid gap-4 p-4 grid-cols-main">
+                <div class=""></div>
+                <div class="">
+                    <div class="flex justify-center">
+                        <button type="button" id="backward"><span
+                                class="font-open-sans font-bold text-black px-12 py-3 rounded-2xl ">&lt;&lt;</span>
+                        </button>
+                        <span class="m-10 font-open-sans font-bold text-black px-12 py-3 rounded-2xl "
+                            id="pageno">0</span>
+                        <button type="button" id="forward"><span
+                                class="font-open-sans font-bold text-black px-12 py-3 rounded-2xl ">&gt;&gt;</span>
+                        </button>
+                    </div>
+                    <div class="infodad flex flex-wrap justify-center">
+                        <!-- <div class="infocard pt-4 pb-5 shadow-card rounded-lg m-3">
+                            <div class="w-72 h-80">
+                                <div class="spacer h-64"></div>
+                                <p class="title ml-10 text-xl mt-2.5 mx-auto font-open-sans font-semibold break-words text-black align-text-bottom
+                                    ">
+                                    Hellofff ffff ffffffff fffffff ffff fffffffffffff fffffffffff fffffffff fffffffff
+                                    ffffff ffffff
+                                </p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="flex flex-col pt-4 pb-5 shadow-card bg-white rounded-lg m-3">
+    <div class="w-80"></div>
+    <img class="h-28 w-28 mt-2 rounded-full mx-auto" src="img/Avatar.svg" alt="Avatar">
+    <p class="text-xl mt-2.5 mx-auto font-open-sans font-semibold">
+        divTedoro Luck
+    </p>
+    <p class="text-lg mt-2.5 mx-auto font-open-sans font-semibold">
+        Product Designer at Google
+    </p>
+    <p class="text-lg mt-2.5 mx-auto font-open-sans font-semibold text-indigo-600">
+        @Core
+    </p>
+    <p class="text-lg mt-2.5 mx-auto font-open-sans font-regular">
+        SWC 2018-2021
+    </p>
+    <div class="flex w-28 mx-auto p-2 pt-4 pb-10">
+        <button type="button">
+            <img class="w-8" src="img/ChatIcon.svg" alt="Chat Icon">
+        </button>
+        <div class="flex-grow"></div>
+        <button type="button">
+            <img class="w-8" src="img/PhoneIcon.svg" alt="Phone Icon">
+        </button>
+    </div>
+</div> -->

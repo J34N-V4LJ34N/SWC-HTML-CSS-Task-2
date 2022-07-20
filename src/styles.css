@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .infocard {
+  background-image: url("https://image.tmdb.org/t/p/w500/qTkJ6kbTeSjqfHCFCmWnfWZJOtm.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top;
+} */
